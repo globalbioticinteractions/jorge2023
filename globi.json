@@ -1,0 +1,91 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://docs.google.com/spreadsheets/u/0/d/1_Jsizuu31NT4NESgZ3ReIh-if3-2_e6bY4ijB9fi4GY/export?format=tsv",
+    "dcterms:bibliographicCitation" : "Jorge, T. M. R., Ortêncio Filho, H., & Bianconi, G. V. (2023). A review of folivory by neotropical bats. Interfaces Científicas-Saúde e Ambiente, 9(2), 29-44.",
+    "interactionTypeName": "eats",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002470",
+    "targetBodyPartName": "leaves",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "", "-" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "referenceCitation",
+        "titles" : "Authors",
+        "datatype" : "string"
+      }, {
+        "name" : "Periodical",
+        "titles" : "Periodical",
+        "datatype" : "string"
+      }, {
+        "name" : "Year of publication",
+        "titles" : "Year of publication",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "Study location",
+        "datatype" : "string"
+      }, {
+        "name" : "Período",
+        "titles" : "Período",
+        "datatype" : "string"
+      }, {
+        "name" : "basisOfRecord",
+        "titles" : "Record type",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "Bat species",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceLifeStageName",
+        "titles" : "Class",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Plant species",
+        "datatype" : "string"
+      }, {
+        "name" : "n° folhas",
+        "titles" : "n° folhas",
+        "datatype" : "string"
+      }, {
+        "name" : "targetLifeStageName",
+        "titles" : "Leaf age",
+        "datatype" : "string"
+      }, {
+        "name" : "Folivory site",
+        "titles" : "Folivory site",
+        "datatype" : "string"
+      }, {
+        "name" : "Seasonality",
+        "titles" : "Seasonality",
+        "datatype" : "string"
+      }, {
+        "name" : "Foraging time",
+        "titles" : "Foraging time",
+        "datatype" : "string"
+      }, {
+        "name" : "Motivation",
+        "titles" : "Motivation",
+        "datatype" : "string"
+      }, {
+        "name" : "Inteiras/ parcial",
+        "titles" : "Inteiras/ parcial",
+        "datatype" : "string"
+      }, {
+        "name" : "Chemical composition of leaves",
+        "titles" : "Chemical composition of leaves",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
